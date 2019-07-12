@@ -16,6 +16,9 @@ All problems were translated to the UflLib format.
 
 ## Results
 
-Current results are stored in the `res1` folder, the subfolder is the algorithm.
+Current results are stored in the `res1` folder:
+```
+res1/<algorithm>/<problem_group>/<benchmark>
+```
 
 [main_tables.pdf](main_tables.pdf) provides a summary.
