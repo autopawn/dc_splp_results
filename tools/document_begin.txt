@@ -1,0 +1,7 @@
+\documentclass{article}
+\usepackage[legalpaper, landscape, margin=1in]{geometry}
+
+\usepackage{float}
+\usepackage{amssymb}
+
+\begin{document}

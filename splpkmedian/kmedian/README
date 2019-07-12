@@ -1,0 +1,29 @@
+This package contains k-median-type problems for uncapacitated facility 
+location. The files in the package are as follows:
+
+*-10		Problems for facility location, 
+		for * = 500, 1000, 1500, 2000, 2500, 3000
+
+*-#.bub		Best solutions found,
+		for * as above and # = 10, 100, 1000
+
+changefile.c	Program to manipulate opening costs
+README	   	This file
+
+The problem file structure is as follows:
+On the first line there is the filename, on the second line the number of 
+facilities, cities and a 0. Then on each line there is the data for one 
+of the facilities:
+[number] [opening cost] [cost of connect. city 1] ... [cost of connect. city m]
+
+The solution files consist of one line. The ith number is the facility, 
+to which city i is connected. Facility numbering starts with 0. The 
+final number in the file is the cost of the solution.
+
+Changefile needs 3 parameters: [DENOM] [SOURCEFILE] [TARGETFILE]
+It takes the data from the source file, devides all opening costs by the 
+specified value DENOM (rounds the results to integer) and writes a new problem 
+in the target file with new opening and equal connection costs. 
+
+
+Martin Hoefer, 2005
